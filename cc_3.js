@@ -4,7 +4,7 @@ let customers={
     Purchase:['Rock','table','pen']
 };
 console.log(customers);
-customers.extra.push("Kim");
+let extra= customers.Names.push("Kim");
 
 console.log(customers);
 
