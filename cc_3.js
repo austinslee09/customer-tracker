@@ -1,6 +1,6 @@
 let customers={
     Names:['Tim','Dim','Zim']
-    CustomerEmail:['t@mail','Dim@mail','Zm@mail']
+    CustomerEmail:['t@mail','dim@mail','zm@mail']
     Purchase:['Rock','table','pen']
 };
 console.log(customers);
