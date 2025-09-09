@@ -4,6 +4,8 @@ let customers={
     Purchase:['Rock','table','pen']
 };
 console.log(customers);
-customers.Names.push("Kim");
-customers.Names.shift();
+customers.extra.push("Kim");
+
 console.log(customers);
+
+customers.Names.shift();
