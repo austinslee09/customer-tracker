@@ -5,4 +5,4 @@ let customers={
 };
 console.log(customers);
 customers.Names.push('Kim');
-customer.Names.shift(1);
+customers.Names.shift(1);
