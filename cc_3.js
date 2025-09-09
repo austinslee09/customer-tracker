@@ -4,5 +4,5 @@
     let Purchase=["Rock","table","pen"];
 
 console.log(customers);
-customers.push("Kim");
+customersName.push("Kim");
 customers.shift(1);
