@@ -4,8 +4,9 @@ let customers={
     Purchase:['Rock','table','pen']
 };
 console.log(customers);
-let extra= customers.Names.push("Kim");
 
+let extra= customers.Names.push("Kim");
 console.log(customers);
 
-removeOne= customers.shift(1);
+let removeOne= customers.shift();
+console.log(customers)
