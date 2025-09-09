@@ -6,3 +6,4 @@ let customers={
 console.log(customers);
 customers.Names.push('Kim');
 customers.Names.shift(1);
+console.log(customers)
