@@ -1,7 +1,7 @@
 let customers={
-    let Names=['Tim','Dim','Zim'];
-    let CustomerEmail=['t@mail','Dim@mail','Zm@mail'];
-    let Purchase=['Rock','table','pen'];
+    let Names:['Tim','Dim','Zim'];
+    let CustomerEmail:['t@mail','Dim@mail','Zm@mail'];
+    let Purchase:['Rock','table','pen'];
 };
 console.log(customers);
 customersName.push('Kim');
