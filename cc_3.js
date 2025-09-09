@@ -8,4 +8,4 @@ let extra= customers.Names.push("Kim");
 
 console.log(customers);
 
-removeOne=customers.shift();
+removeOne= customers.shift(1);
