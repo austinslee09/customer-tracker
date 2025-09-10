@@ -14,6 +14,6 @@ let removeOne= customers.names.shift();
 let removetwo= customers.customerEmail.shift();
 let removethree= customers.purchase.shift();
 console.log(customers)
-names.forEach(names => {console.log(names)
+customers.forEach(customers => {console.log(names)
     
 });
