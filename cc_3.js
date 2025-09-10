@@ -10,5 +10,5 @@ let mailing= customers.CustomerEmail.push("Kimm@mail");
 let but= customers.Purchase.push("bee");
 console.log(customers);
 
-let removeOne= customers.shift();
+let removeOne= customers.shift(0,0,0);
 console.log(customers)
