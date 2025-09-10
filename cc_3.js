@@ -5,7 +5,7 @@ let customers={
 };
 console.log(customers);
 
-let extra= customers.Names.CustomerEmail.Purchase.push("Kim", "kimm@MediaList", "bee");
+let extra= customers.Names.CustomerEmail.push("Kim", "kimm@Mail");
 console.log(customers);
 
 let removeOne= customers.shift();
