@@ -1,14 +1,16 @@
 let customers={
-    Names:['Tim','Dim','Zim'],
-    CustomerEmail:['t@mail','dim@mail','zm@mail'],
-    Purchase:['Rock','table','pen']
+    names:['Tim','Dim','Zim'],
+    customerEmail:['t@mail','dim@mail','zm@mail'],
+    purchase:['Rock','table','pen']
 };
 console.log(customers);
 
-let extra= customers.Names.push("Kim");
-let mailing= customers.CustomerEmail.push("Kimm@mail");
-let but= customers.Purchase.push("bee");
+let extra= customers.names.push("Kim");
+let mailing= customers.customerEmail.push("Kimm@mail");
+let but= customers.purchase.push("bee");
 console.log(customers);
 
-let removeOne= customers.Names.shift();
+let removeOne= customers.names.shift();
+let removetwo= customers.customerEmail.shift();
+let removethree= customers.purchase.shift();
 console.log(customers)
