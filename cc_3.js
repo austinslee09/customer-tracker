@@ -1,4 +1,4 @@
-let customers={
+const customers={
     names:['Tim','Dim','Zim'],
     customerEmail:['t@mail','dim@mail','zm@mail'],
     purchase:['Rock','table','pen']
