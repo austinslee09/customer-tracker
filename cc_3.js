@@ -18,7 +18,7 @@ customers[1]['customerEmail']='dmm@mail'
 
 console.log(customers);
 
-customer[1]['purchase'].push("glue");
+customers[1]['purchase'].push("glue");
 
 
 customers.forEach(obj => (`Name: ${Object.name}` | `customer email: ${Object.customerEmail}` | `purchase: ${Object.purchase}` ));
