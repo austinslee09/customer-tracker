@@ -10,11 +10,10 @@ customers.push(Obj2)
 console.log(customers);
 
 obj3={name:"Tim", customerEmail:"t@mail", purchase: "Rock"}
-customers.shift();
+customers.shift(obj3);
 
 console.log(customers)
 
-customers.splice(1,1,"dmm@mail");
 
 console.log(customers)
 
@@ -22,6 +21,4 @@ customers.forEach(obj => (`Name: ${Object.name}` | `customer email: ${Object.cus
 
 console.log(customers)
 
-customers.push(2,2,"glue")
-
-console.log(customers)
+//need another push and an unshift 
