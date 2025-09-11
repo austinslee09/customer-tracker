@@ -5,9 +5,8 @@ const customers=[{
 }];
 console.log(customers);
 
-let extra= customers.names.push("Kim");
-let mailing= customers.customerEmail.push("Kimm@mail");
-let but= customers.purchase.push("bee");
+Obj2={name:"kim", customerEmail:"kimm@mail", purchase:"tree"}
+customers.push(Obj2)
 console.log(customers);
 
 let removeOne= customers.names.shift();
