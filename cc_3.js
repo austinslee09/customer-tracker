@@ -15,7 +15,7 @@ customers.shift(obj3);
 console.log(customers)
 
 
-console.log(customers)
+
 
 customers.forEach(obj => (`Name: ${Object.name}` | `customer email: ${Object.customerEmail}` | `purchase: ${Object.purchase}` ));
 
