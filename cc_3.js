@@ -15,4 +15,9 @@ customers.shift();
 console.log(customers)
 
 customers.splice(1,1,"Dmm@mail");
+
+console.log(customers)
+
 customers.forEach(obj => (`Name: ${Object.name}` | `customer email: ${Object.customerEmail}` | `purchase: ${Object.purchase}` ));
+
+console.log(customers)
