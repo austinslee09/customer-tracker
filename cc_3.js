@@ -14,7 +14,7 @@ customers.shift(obj3);
 
 console.log(customers)
 
-customers[2][1]="dmm@mail"
+customers[1][1]="dmm@mail"
 
 console.log(customers)
 
