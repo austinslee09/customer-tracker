@@ -9,8 +9,8 @@ Obj2={name:"kim", customerEmail:"kimm@mail", purchase:"tree"}
 customers.push(Obj2)
 console.log(customers);
 
-let removeOne= customers.names.shift();
-let removetwo= customers.customerEmail.shift();
-let removethree= customers.purchase.shift();
+customers.names.shift();
+customers.customerEmail.shift();
+customers.purchase.shift();
 console.log(customers)
 customers.forEach(obj => (`Name: ${Object.name}` | `customer email: ${Object.customerEmail}` | `purchase: ${Object.purchase}` ));
