@@ -1,11 +1,11 @@
 const customers=[{
-    names:["Tim","Dim","Zim"]},
-    {customerEmail:["t@mail","dim@mail","zm@mail"]},
-    {purchase:["Rock","table","pen"]
+    name: "Tim", customerEmail: "t@mail", purchase:"rock"},
+    {name: "Zim", customerEmail: "zimm@mail", purchase:"table"},
+    {name: "Dim", customerEmail: "dm@mail", purchase:"key"
 }];
 console.log(customers);
 
-Obj2={name:"kim", customerEmail:"kimm@mail", purchase:"tree"}
+Obj2={name:"Pim", customerEmail:"Pimm@mail", purchase:"tree"}
 customers.push(Obj2)
 console.log(customers);
 
@@ -14,7 +14,7 @@ customers.shift();
 
 console.log(customers)
 
-customers.splice(1,1,"Dmm@mail");
+customers.splice(2,1,"dmm@mail");
 
 console.log(customers)
 
@@ -22,6 +22,6 @@ customers.forEach(obj => (`Name: ${Object.name}` | `customer email: ${Object.cus
 
 console.log(customers)
 
-customers.push(2,2,"glue")
+customers.purchase.push(2,2,"glue")
 
 console.log(customers)
