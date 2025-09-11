@@ -14,6 +14,4 @@ let removeOne= customers.names.shift();
 let removetwo= customers.customerEmail.shift();
 let removethree= customers.purchase.shift();
 console.log(customers)
-customers.forEach(customers => {console.log(names)
-    
-});
+customers.forEach(obj => (`Name: ${Object.name}` | `customer email: ${Object.customerEmail}` | `purchase: ${Object.purchase}` ));
