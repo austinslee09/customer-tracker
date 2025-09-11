@@ -14,7 +14,9 @@ customers.shift(obj3);
 
 console.log(customers)
 
+customers[2][1]="dmm@mail"
 
+console.log(customers)
 
 
 customers.forEach(obj => (`Name: ${Object.name}` | `customer email: ${Object.customerEmail}` | `purchase: ${Object.purchase}` ));
