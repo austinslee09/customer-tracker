@@ -18,8 +18,10 @@ customers[1]['customerEmail']='dmm@mail'
 
 console.log(customers);
 
+let order= customers[2].purchase;
+order.push("bat")
+
 customers.forEach(obj => (`Name: ${Object.name}` | `customer email: ${Object.customerEmail}` | `purchase: ${Object.purchase}` ));
 
 console.log(customers);
 
-//need another push and an unshift 
