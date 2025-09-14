@@ -18,7 +18,7 @@ customers[1]['customerEmail']='dmm@mail'
 
 console.log(customers);
 
-puch(schedule.purchase[2][2])
+push(schedule.purchase[2][2])
 
 console.log(customers)
 
