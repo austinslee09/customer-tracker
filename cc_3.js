@@ -14,12 +14,12 @@ customers.shift(obj3);
 
 console.log(customers)
 
-customers[1]['customerEm
+customers[1]['customerEmail']='dmm@mail'
 
 console.log(customers);
 
-let order= [customers[2]];
-order.push("bat");
+customers.push [2][2] ="bat and rock"
+
 
 customers.forEach(obj => (`Name: ${Object.name}` | `customer email: ${Object.customerEmail}` | `purchase: ${Object.purchase}` ));
 
