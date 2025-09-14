@@ -20,6 +20,7 @@ console.log(customers);
 
 customers.push [2][2] ="bat and rock"
 
+console.log(customers)
 
 customers.forEach(obj => (`Name: ${Object.name}` | `customer email: ${Object.customerEmail}` | `purchase: ${Object.purchase}` ));
 
