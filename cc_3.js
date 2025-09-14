@@ -18,7 +18,7 @@ customers[1]['customerEmail']='dmm@mail'
 
 console.log(customers);
 
-customers.push [2]["purchase"] ="bat and rock"
+
 
 console.log(customers)
 
