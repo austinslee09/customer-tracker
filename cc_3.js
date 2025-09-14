@@ -1,7 +1,7 @@
 const customers=[{
-    name: "Tim", customerEmail: "t@mail", purchase:"rock"},
-    {name: "Zim", customerEmail: "zimm@mail", purchase:"table"},
-    {name: "Dim", customerEmail: "dm@mail", purchase:"key"
+    name: "Tim", customerEmail: "t@mail", purchase:["rock"]},
+    {name: "Zim", customerEmail: "zimm@mail", purchase:["table"]},
+    {name: "Dim", customerEmail: "dm@mail", purchase:["key"]
 }];
 console.log(customers);
 
